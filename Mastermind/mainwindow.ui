@@ -498,6 +498,9 @@
       <pointsize>28</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>MASTERMIND</string>
     </property>
@@ -1484,9 +1487,9 @@
    <widget class="QPushButton" name="Guardar">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>150</y>
-      <width>151</width>
+      <x>430</x>
+      <y>230</y>
+      <width>161</width>
       <height>31</height>
      </rect>
     </property>
@@ -1945,8 +1948,8 @@
    <widget class="QPushButton" name="Terminar">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>210</y>
+      <x>300</x>
+      <y>170</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -2406,8 +2409,8 @@
    <widget class="QPushButton" name="Cargar">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>120</y>
+      <x>300</x>
+      <y>130</y>
       <width>141</width>
       <height>31</height>
      </rect>
@@ -2867,7 +2870,7 @@
    <widget class="QPushButton" name="Iniciar">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>310</x>
       <y>90</y>
       <width>121</width>
       <height>31</height>
