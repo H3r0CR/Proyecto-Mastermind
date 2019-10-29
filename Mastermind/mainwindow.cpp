@@ -25,5 +25,5 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Ayuda_clicked()
 {
-    QDesktopServices::openUrl(QUrl::fromLocalFile("C:/Users/hertz/Documents/GitHub/Proyecto-Mastermind/Cuento.pdf"));
+    QDesktopServices::openUrl(QUrl::fromLocalFile("/C:/Users/hertz/Documents/GitHub/Proyecto-Mastermind/Cuento.pdf"));
 }
