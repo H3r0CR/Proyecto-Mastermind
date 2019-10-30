@@ -1,10 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
-#include <QApplication>
-#include <QDesktopServices>
-#include <QPushButton>
-#include <QUrl>
+#include "ventana_juego.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -23,7 +19,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::on_Ayuda_clicked()
+
+void MainWindow::on_Iniciar_clicked()
 {
-    QDesktopServices::openUrl(QUrl::fromLocalFile("/C:/Users/hertz/Documents/GitHub/Proyecto-Mastermind/Cuento.pdf"));
+    Ventana_juego ventana_juego;
+    ventana_juego.setModal(true);
+    ventana_juego.exec();
 }

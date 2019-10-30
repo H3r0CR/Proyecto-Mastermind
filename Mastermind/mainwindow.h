@@ -16,9 +16,10 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_Ayuda_clicked();
+    void on_Iniciar_clicked();
 
 private:
     Ui::mainwindow *ui;
+
 };
 #endif // MAINWINDOW_H

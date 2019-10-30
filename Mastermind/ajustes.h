@@ -1,13 +1,13 @@
 #ifndef AJUSTES_H
 #define AJUSTES_H
 
-#include <QWidget>
+#include <QDialog>
 
 namespace Ui {
 class Ajustes;
 }
 
-class Ajustes : public QWidget
+class Ajustes : public QDialog
 {
     Q_OBJECT
 

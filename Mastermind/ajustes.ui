@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Ajustes</class>
- <widget class="QWidget" name="Ajustes">
+ <widget class="QDialog" name="Ajustes">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>697</width>
+    <height>367</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Mastermind</string>
   </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>0</y>
+     <width>231</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Britannic Bold</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>MASTERMIND</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
