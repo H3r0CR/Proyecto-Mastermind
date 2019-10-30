@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/Insumos">
+        <file>Imagenes/BLANCO.png</file>
+        <file>Imagenes/AZUL.png</file>
+        <file>Imagenes/MORADO.png</file>
+        <file>Imagenes/NARANJA.png</file>
+        <file>Imagenes/ROJO.png</file>
+        <file>Imagenes/VERDE.png</file>
+        <file>Imagenes/AMARILLO.png</file>
+    </qresource>
+</RCC>
