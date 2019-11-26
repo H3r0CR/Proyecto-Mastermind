@@ -2,6 +2,9 @@
 #define VENTANA_JUEGO_H
 
 #include <QDialog>
+#include <QObject>
+#include <QPushButton>
+#include <QEvent>
 
 namespace Ui {
 class Ventana_juego;
@@ -20,8 +23,14 @@ private slots:
 
     void on_Configuracion_clicked();
 
+    void on_Panel_Box_clicked();
+
+    void Change(int  cont, class QPushButton *);
+
+
 private:
     Ui::Ventana_juego *ui;
 };
 
 #endif // VENTANA_JUEGO_H
+

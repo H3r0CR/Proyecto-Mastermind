@@ -4,8 +4,8 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::mainwindow)
-{
+    , ui(new Ui::mainwindow)                // Esta función se encarga de cargar una imagen por medio de su dirección URL
+{                                               //para colocarla como fondo para la ventana
         ui->setupUi(this);
         QPixmap bkgnd("/Users/hertz/Documents/GitHub/Proyecto-Mastermind/Madera.jpg");
         bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
@@ -20,8 +20,8 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_Iniciar_clicked()
-{
+void MainWindow::on_Iniciar_clicked()       // Esta función se encarga de abrir una ventana nueva, al recibir un click
+{                                               //en su respectivo botón
     Ventana_juego ventana_juego;
     ventana_juego.setModal(true);
     ventana_juego.exec();
